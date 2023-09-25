@@ -82,6 +82,17 @@ header {
 .home-content .name p {
   color: #f0f0e6;
   font-size: 1.5rem;
+  position: relative;
+}
+
+.write {
+  position: relative;
+  width: 25rem;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid transparent;
+  
 }
 
 .angle-down-icon {
@@ -208,8 +219,11 @@ header {
 .progress-line .javascript {
   width: 50%;
 }
-.progress-line .c {
-  width: 50%;
+.progress-line .sql {
+  width: 60%;
+}
+.progress-line .php {
+  width: 60%;
 }
 
 .bar .progress-line span::before {
@@ -250,8 +264,11 @@ header {
 .progress-line .javascript::after {
   content: "50%";
 }
-.progress-line .c::after {
-  content: "50%";
+.progress-line .sql::after {
+  content: "60%";
+}
+.progress-line .php::after {
+  content: "60%";
 }
 
 .navbar.solid {
